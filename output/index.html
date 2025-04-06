@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tỏ tình</title>
+    <script type="module" crossorigin src="./assets/index-Imx0T9K5.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-tebglk6h.css" />
+  </head>
+  <body>
+    <div class="music-control">
+      <button id="toggle-music" class="music-btn">
+        <span class="music-on">🔊</span>
+        <span class="music-off">🔇</span>
+      </button>
+    </div>
+    <audio id="background-music" loop>
+      <source src="./music/romantic-background.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Hiệu ứng mưa trái tim -->
+    <div class="heart-rain">
+      <div class="heart-rain-layer"></div>
+      <div class="heart-rain-layer"></div>
+      <div class="heart-rain-layer"></div>
+    </div>
+
+    <div id="confession-page" class="page active">
+      <div class="container">
+        <div class="love-container">
+          <h1 class="animate__animated animate__heartBeat animate__infinite">
+            Anh yêu em!
+          </h1>
+          <div class="confession-text animate__animated animate__fadeIn">
+            <p>
+              Em là ánh nắng trong cuộc đời anh, là người mà anh luôn nghĩ đến
+              mỗi khi thức dậy và trước khi đi ngủ.
+            </p>
+            <p>
+              Mỗi khoảnh khắc bên em đều là những kỷ niệm quý giá mà anh trân
+              trọng.
+            </p>
+            <p>
+              Anh muốn anh và em hai ta cùng nhau mở ra 1 câu chuyện đẹp của
+              riêng hai ta.
+            </p>
+            <p class="question">Em có đồng ý làm người yêu anh không?</p>
+          </div>
+          <div class="buttons">
+            <button
+              id="yes-btn"
+              class="btn btn-love animate__animated animate__pulse animate__infinite"
+            >
+              Đồng ý ❤️
+            </button>
+            <button id="no-btn" class="btn btn-secondary">Không</button>
+          </div>
+          <div class="hearts-container" id="hearts"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="thanks-page" class="page">
+      <div class="container">
+        <div class="thanks-container">
+          <h1 class="animate__animated animate__heartBeat">Cảm ơn em!</h1>
+          <div class="thanks-text animate__animated animate__fadeIn">
+            <p>Cảm ơn em đã cho anh cơ hội để yêu thương và chăm sóc em.</p>
+            <p>
+              Anh hứa sẽ luôn bên cạnh em, yêu thương và trân trọng em mỗi ngày.
+            </p>
+            <p>Tình yêu của chúng ta sẽ mãi đẹp như những đóa hồng.</p>
+          </div>
+          <div class="teddy-container">
+            <img
+              src="./images/teddy.gif"
+              alt="Teddy Bear"
+              class="teddy-bear animate__animated animate__bounce animate__infinite"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
